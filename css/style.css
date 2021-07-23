@@ -279,6 +279,10 @@ header {
         z-index: 2;
     }    
     
+    .nars-project {
+ width:90%;;
+ margin: 0 auto;
+    }
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
