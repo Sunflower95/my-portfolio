@@ -390,7 +390,7 @@ z-index: 2;
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 .portfolio__item {
@@ -405,12 +405,12 @@ z-index: 2;
 }
 .portfolio__item:focus {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-  transform: scale(1);
+  transform: scale(1.2);
   opacity: .5;
 }
 
